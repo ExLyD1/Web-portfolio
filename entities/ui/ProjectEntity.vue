@@ -32,7 +32,7 @@
 			</div>
 
 			<!-- Project Content -->
-			<div class="p-4">
+			<div class="p-4 pb-0">
 				<h3 class="text-lg font-semibold text-purple-100 mb-2">
 					{{ project.title }}
 				</h3>
@@ -67,7 +67,7 @@
 
 		<!-- Action Buttons -->
 		<div
-			class="p-4"
+			class="p-4 pt-0"
 			v-if="project.project_link || project.code_link || project.video_link"
 		>
 			<div class="flex space-x-3 border-t border-purple-950 pt-2 h-[48px]">
