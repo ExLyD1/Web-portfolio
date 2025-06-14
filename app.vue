@@ -6,3 +6,9 @@
 </template>
 
 <script></script>
+
+<style>
+* {
+	scroll-behavior: smooth;
+}
+</style>
